@@ -1319,7 +1319,7 @@
     <string name="cocoa">Cocoa</string>
     <string name="code_detected">We have detected the barcode</string>
     <string name="collagen_meat_protein_ratio">Collagen meat protein ratio</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">500b2f86-beba-4594-9619-6ae04a1ecaeb</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">3b7cd3eb-c032-4c27-a6e0-4a7f35d3e45b</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
