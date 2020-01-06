@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/486ea94cd1f830ce94b65815fd5c54a4/jetified-MaterialBarcodeScanner-0.0.6-ALPHA/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/486ea94cd1f830ce94b65815fd5c54a4/jetified-MaterialBarcodeScanner-0.0.6-ALPHA/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/486ea94cd1f830ce94b65815fd5c54a4/jetified-MaterialBarcodeScanner-0.0.6-ALPHA/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/loginParent"
+    android:background="@color/loginBkColor"
+    android:orientation="vertical">
+
+
+        <RelativeLayout style="@style/parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:weightSum="12">
+
+                <LinearLayout
+                    style="@style/parent"
+                    android:layout_height="213dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/login_shape_bk"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        style="@style/parent"
+                        android:layout_width="match_parent"
+                        android:layout_height="243dp"
+                        android:layout_weight="3"
+                        android:background="@drawable/img9"
+                        android:orientation="vertical" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+
+
+                <androidx.cardview.widget.CardView
+                    style="@style/loginCard"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/loginViewsMargin"
+                    android:layout_marginBottom="@dimen/loginViewsMargin"
+                    android:background="@color/whiteCardColor"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="@dimen/loginCardRadius">
+
+
+                    <LinearLayout
+                        style="@style/linearParent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/loginViewsMargin">
+
+
+                        <ImageView
+                            android:layout_width="63dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/loginViewsMargin"
+
+                            android:background="@drawable/barcode_icon_2_png"
+                            android:foreground="@color/transparent"
+                            android:scrollbarTrackHorizontal="@color/transparent"
+                            android:scrollbarTrackVertical="@color/transparent"
+                            android:tint="@color/transparent" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/textInputEmail"
+                            style="@style/parent"
+                            android:layout_marginTop="@dimen/loginViewsMargin">
+
+                            <TextView
+                                android:id="@+id/editTextBarcode"
+                                style="@style/modifiedEditText"
+                                android:layout_height="match_parent"
+                                android:drawablePadding="10dip"
+                                android:ems="10"
+                                android:text="@string/text_app"
+                                android:textSize="@dimen/font_normal" />
+
+                            <TextView
+                                android:id="@+id/editTextBarcode1"
+                                style="@style/modifiedEditText"
+                                android:layout_height="match_parent"
+                                android:drawablePadding="10dip"
+                                android:ems="10"
+                                android:text="@string/text_app2"
+                                android:textSize="@dimen/font_normal" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/imgLevel"
+                                android:layout_width="@dimen/font_larger"
+                                android:layout_height="@dimen/font_large"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/spacing_normal"
+                                android:layout_marginRight="@dimen/spacing_normal"
+                                app:srcCompat="@drawable/low" />
+
+                            <TextView
+                                android:id="@+id/descriptionLevel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_toEndOf="@id/imgLevel"
+                                android:layout_toRightOf="@id/imgLevel"
+                                android:gravity="center_vertical"
+                                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                                android:text="@string/descriptionLevel"
+                                android:textSize="@dimen/font_normal" />
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/imgLevel1"
+                                android:layout_width="@dimen/font_larger"
+                                android:layout_height="@dimen/font_large"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/spacing_normal"
+                                android:layout_marginRight="@dimen/spacing_normal"
+                                app:srcCompat="@drawable/moderate" />
+
+                            <TextView
+                                android:id="@+id/des"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_toEndOf="@id/imgLevel1"
+                                android:layout_toRightOf="@id/imgLevel1"
+                                android:gravity="center_vertical"
+                                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                                android:text="@string/des"
+                                android:textSize="@dimen/font_normal" />
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/imgL"
+                                android:layout_width="@dimen/font_larger"
+                                android:layout_height="@dimen/font_large"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/spacing_normal"
+                                android:layout_marginRight="@dimen/spacing_normal"
+                                app:srcCompat="@drawable/high" />
+
+                            <TextView
+                                android:id="@+id/descriptio"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_toEndOf="@id/imgL"
+                                android:layout_toRightOf="@id/imgL"
+                                android:gravity="center_vertical"
+                                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                                android:text="@string/descriptio"
+                                android:textSize="@dimen/font_normal" />
+
+
+                        </RelativeLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/action_buttons_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@color/white">
+
+                            <LinearLayout
+                                android:id="@+id/action_compare_button_layout"
+                                style="@style/ActionButtonLayout"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/action_add_to_list_button_layout"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <ImageButton
+                                    android:id="@+id/action_compare_button"
+                                    style="@style/ActionButton"
+                                    app:srcCompat="@drawable/carrot" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/action_add_to_list_button_layout"
+                                style="@style/ActionButtonLayout"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/action_edit_button_layout"
+                                app:layout_constraintStart_toEndOf="@id/action_compare_button_layout"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <ImageButton
+                                    android:id="@+id/action_add_to_list_button"
+                                    style="@style/ActionButton"
+                                    app:srcCompat="@drawable/brain" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/action_edit_button_layout"
+                                style="@style/ActionButtonLayout"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@id/action_share_button_layout"
+                                app:layout_constraintStart_toEndOf="@id/action_add_to_list_button_layout"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <ImageButton
+                                    android:id="@+id/action_edit_button"
+                                    style="@style/ActionButton"
+                                    app:srcCompat="@drawable/hoho" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/action_share_button_layout"
+                                style="@style/ActionButtonLayout"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginRight="8dp"
+                                app:layout_constrainedWidth="true"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@id/action_edit_button_layout"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <ImageButton
+                                    android:id="@+id/action_share_button"
+                                    style="@style/ActionButton"
+                                    app:srcCompat="@drawable/apple" />
+
+                            </LinearLayout>
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+</RelativeLayout>
+
+

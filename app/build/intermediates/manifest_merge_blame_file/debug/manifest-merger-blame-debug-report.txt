@@ -1,0 +1,347 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nextinnovation.pt.barcodescanner"
+4    android:versionCode="3"
+5    android:versionName="2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:6:5-81
+11-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:8:5-67
+13-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:9:5-76
+14-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:9:22-73
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:11:5-60
+16-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:11:19-57
+17
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:13:5-65
+18-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:13:22-62
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5788c1ae8688f8d2b540b8d99d32d2fc\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+19-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5788c1ae8688f8d2b540b8d99d32d2fc\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+20
+21    <application
+21-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:15:5-86:19
+22        android:name="androidx.multidex.MultiDexApplication"
+23        android:allowBackup="true"
+23-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:16:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\bb6f32eab3e1aa2ef2148f27f3a5cf5a\core-1.0.0\AndroidManifest.xml:22:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/barcode_icon_2_png"
+26-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:17:9-52
+27        android:label="@string/app_name"
+27-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:18:9-41
+28        android:supportsRtl="true"
+28-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:19:9-35
+29        android:testOnly="true"
+30        android:theme="@style/MyMaterialTheme" >
+30-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:20:9-47
+31        <meta-data
+31-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:22:9-24:70
+32            android:name="com.google.android.gms.ads.APPLICATION_ID"
+32-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:23:13-69
+33            android:value="ca-app-pub-1981329224036091~6899735442" />
+33-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:24:13-67
+34
+35        <activity
+35-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:26:9-31:59
+36            android:name="com.nextinnovation.pt.barcodescanner.activity.PrincipalActivity"
+36-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:27:13-55
+37            android:label="@string/title_activity_principal"
+37-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:28:13-61
+38            android:theme="@style/AppTheme.NoActionBar"
+38-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:31:13-56
+39            android:windowSoftInputMode="adjustPan" />
+39-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:29:13-52
+40
+41        <meta-data
+41-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:33:9-35:95
+42            android:name="android.support.PARENT_ACTIVITY"
+42-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:34:13-59
+43            android:value="com.nextinnovation.pt.barcodescanner.activity.PrincipalActivity" />
+43-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:35:13-92
+44
+45        <activity android:name="com.nextinnovation.pt.barcodescanner.activity.ProductActivity" />
+45-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:37:9-62
+45-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:37:19-59
+46        <activity
+46-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:38:9-46:20
+47            android:name="com.nextinnovation.pt.barcodescanner.activity.SplashActivity"
+47-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:39:13-52
+48            android:theme="@style/SplashTheme" >
+48-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:40:13-47
+49            <intent-filter>
+49-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:41:13-45:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:42:17-69
+50-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:42:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:44:17-77
+52-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:44:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <meta-data
+56-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:48:9-50:72
+57            android:name="io.fabric.ApiKey"
+57-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:49:13-44
+58            android:value="999b54da9d566381250dc5e5d613f3d8e44a356a" />
+58-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:50:13-69
+59
+60        <activity
+60-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:52:9-55:48
+61            android:name="com.facebook.FacebookActivity"
+61-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:53:13-57
+62            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+62-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:54:13-96
+63            android:label="@string/app_name"
+63-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:55:13-45
+64            android:theme="@style/com_facebook_activity_theme" />
+64-->[com.facebook.android:facebook-common:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\784230ad20d101dd82d10d17f7aeaf57\jetified-facebook-common-4.42.0\AndroidManifest.xml:32:13-63
+65        <activity android:name="com.nextinnovation.pt.barcodescanner.activity.WelcomeActivity" />
+65-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:56:9-62
+65-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:56:19-59
+66        <activity
+66-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:58:9-69:20
+67            android:name="com.facebook.CustomTabActivity"
+67-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:59:13-58
+68            android:exported="true" >
+68-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:60:13-36
+69            <intent-filter>
+69-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:61:13-68:29
+70                <action android:name="android.intent.action.VIEW" />
+70-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:62:17-69
+70-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:62:25-66
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:64:17-76
+72-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:64:27-73
+73                <category android:name="android.intent.category.BROWSABLE" />
+73-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:65:17-78
+73-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:65:27-75
+74
+75                <data android:scheme="@string/fb_login_protocol_scheme" />
+75-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:67:17-75
+75-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:67:23-72
+76            </intent-filter>
+77        </activity>
+78
+79        <meta-data
+79-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:71:9-73:55
+80            android:name="com.facebook.sdk.ApplicationId"
+80-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:72:13-58
+81            android:value="@string/facebook_app_id" />
+81-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:73:13-52
+82
+83        <provider
+84            android:name="com.nextinnovation.pt.barcodescanner.utils.GenericFileProvider"
+84-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:75:13-54
+85            android:authorities="com.nextinnovation.pt.barcodescanner.provider"
+85-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:76:13-60
+86            android:exported="false"
+86-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:77:13-37
+87            android:grantUriPermissions="true" >
+87-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:78:13-47
+88            <meta-data
+88-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:79:13-81:58
+89                android:name="android.support.FILE_PROVIDER_PATHS"
+89-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:80:17-67
+90                android:resource="@xml/provider_paths" />
+90-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:81:17-55
+91        </provider>
+92        <provider
+93            android:name="com.nextinnovation.pt.barcodescanner.utils.SearchSuggestionProvider"
+93-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:85:13-59
+94            android:authorities="com.nextinnovation.pt.barcodescanner.utils.SearchSuggestionProvider" />
+94-->C:\Users\HELLO\Desktop\oumnia\Foodscanner-V4\app\src\main\AndroidManifest.xml:84:13-82
+95
+96        <meta-data
+96-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\486ea94cd1f830ce94b65815fd5c54a4\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:18:9-20:69
+97            android:name="com.google.android.gms.version"
+97-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\486ea94cd1f830ce94b65815fd5c54a4\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:19:13-58
+98            android:value="@integer/google_play_services_version" />
+98-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\486ea94cd1f830ce94b65815fd5c54a4\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:20:13-66
+99        <meta-data
+99-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\486ea94cd1f830ce94b65815fd5c54a4\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:21:9-23:39
+100            android:name="com.google.android.gms.vision.DEPENDENCIES"
+100-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\486ea94cd1f830ce94b65815fd5c54a4\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:22:13-70
+101            android:value="barcode" />
+101-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\486ea94cd1f830ce94b65815fd5c54a4\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:23:13-36
+102
+103        <activity
+103-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\486ea94cd1f830ce94b65815fd5c54a4\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:25:9-29:20
+104            android:name="com.edwardvanraak.materialbarcodescanner.MaterialBarcodeScannerActivity"
+104-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\486ea94cd1f830ce94b65815fd5c54a4\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:26:13-99
+105            android:label="@string/library_name"
+105-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\486ea94cd1f830ce94b65815fd5c54a4\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:27:13-49
+106            android:theme="@style/AppTheme.NoActionBar" >
+106-->[com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\486ea94cd1f830ce94b65815fd5c54a4\jetified-MaterialBarcodeScanner-0.0.6-ALPHA\AndroidManifest.xml:28:13-56
+107        </activity>
+108        <activity android:name="com.facebook.CustomTabMainActivity" />
+108-->[com.facebook.android:facebook-common:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\784230ad20d101dd82d10d17f7aeaf57\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:9-71
+108-->[com.facebook.android:facebook-common:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\784230ad20d101dd82d10d17f7aeaf57\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:19-68
+109        <activity
+109-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\b2a187342779ed97d7d5d5a8dbe09fae\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+110            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+110-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\b2a187342779ed97d7d5d5a8dbe09fae\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+111            android:excludeFromRecents="true"
+111-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\b2a187342779ed97d7d5d5a8dbe09fae\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+112            android:exported="false"
+112-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\b2a187342779ed97d7d5d5a8dbe09fae\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+113-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\b2a187342779ed97d7d5d5a8dbe09fae\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+114        <!--
+115            Service handling Google Sign-In user revocation. For apps that do not integrate with
+116            Google Sign-In, this service will never be started.
+117        -->
+118        <service
+118-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\b2a187342779ed97d7d5d5a8dbe09fae\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+119            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+119-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\b2a187342779ed97d7d5d5a8dbe09fae\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+120            android:exported="true"
+120-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\b2a187342779ed97d7d5d5a8dbe09fae\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+121            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+121-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\b2a187342779ed97d7d5d5a8dbe09fae\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+122
+123        <activity
+123-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+124            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+124-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+125            android:excludeFromRecents="true"
+125-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+126            android:exported="true"
+126-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+127            android:launchMode="singleTask"
+127-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+128            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+128-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+130
+131        <service
+131-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+132            android:name="com.google.firebase.components.ComponentDiscoveryService"
+132-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+133            android:directBootAware="true"
+133-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5d4077e76fd84ee9dbd1b2d52697ec8f\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+134            android:exported="false" >
+134-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+135            <meta-data
+135-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+136                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+136-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\045abbbac610a8bb5086748ee64b0615\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+138        </service>
+139
+140        <activity
+140-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\d61adfe1f77942d0d8a4a02a861d2c84\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+141            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+141-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\d61adfe1f77942d0d8a4a02a861d2c84\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\d61adfe1f77942d0d8a4a02a861d2c84\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\d61adfe1f77942d0d8a4a02a861d2c84\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+144
+145        <provider
+145-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5d4077e76fd84ee9dbd1b2d52697ec8f\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+146            android:name="com.google.firebase.provider.FirebaseInitProvider"
+146-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5d4077e76fd84ee9dbd1b2d52697ec8f\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+147            android:authorities="com.nextinnovation.pt.barcodescanner.firebaseinitprovider"
+147-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5d4077e76fd84ee9dbd1b2d52697ec8f\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+148            android:exported="false"
+148-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5d4077e76fd84ee9dbd1b2d52697ec8f\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+149            android:initOrder="100" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+149-->[com.google.firebase:firebase-common:19.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5d4077e76fd84ee9dbd1b2d52697ec8f\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+150        <activity
+150-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\4d69f1685ad42ec6722c503ccd3b26ff\play-services-ads-lite-18.3.0\AndroidManifest.xml:29:9-33:64
+151            android:name="com.google.android.gms.ads.AdActivity"
+151-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\4d69f1685ad42ec6722c503ccd3b26ff\play-services-ads-lite-18.3.0\AndroidManifest.xml:30:13-65
+152            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+152-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\4d69f1685ad42ec6722c503ccd3b26ff\play-services-ads-lite-18.3.0\AndroidManifest.xml:31:13-122
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\4d69f1685ad42ec6722c503ccd3b26ff\play-services-ads-lite-18.3.0\AndroidManifest.xml:32:13-37
+154            android:theme="@android:style/Theme.Translucent" />
+154-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\4d69f1685ad42ec6722c503ccd3b26ff\play-services-ads-lite-18.3.0\AndroidManifest.xml:33:13-61
+155
+156        <provider
+156-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\4d69f1685ad42ec6722c503ccd3b26ff\play-services-ads-lite-18.3.0\AndroidManifest.xml:35:9-39:39
+157            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+157-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\4d69f1685ad42ec6722c503ccd3b26ff\play-services-ads-lite-18.3.0\AndroidManifest.xml:36:13-76
+158            android:authorities="com.nextinnovation.pt.barcodescanner.mobileadsinitprovider"
+158-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\4d69f1685ad42ec6722c503ccd3b26ff\play-services-ads-lite-18.3.0\AndroidManifest.xml:37:13-73
+159            android:exported="false"
+159-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\4d69f1685ad42ec6722c503ccd3b26ff\play-services-ads-lite-18.3.0\AndroidManifest.xml:38:13-37
+160            android:initOrder="100" />
+160-->[com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\4d69f1685ad42ec6722c503ccd3b26ff\play-services-ads-lite-18.3.0\AndroidManifest.xml:39:13-36
+161        <provider
+161-->[com.crashlytics.sdk.android:crashlytics:2.7.1] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\db20548a45e4962219654d0683d2bc7a\crashlytics-2.7.1\AndroidManifest.xml:12:9-16:39
+162            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+162-->[com.crashlytics.sdk.android:crashlytics:2.7.1] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\db20548a45e4962219654d0683d2bc7a\crashlytics-2.7.1\AndroidManifest.xml:13:13-75
+163            android:authorities="com.nextinnovation.pt.barcodescanner.crashlyticsinitprovider"
+163-->[com.crashlytics.sdk.android:crashlytics:2.7.1] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\db20548a45e4962219654d0683d2bc7a\crashlytics-2.7.1\AndroidManifest.xml:14:13-75
+164            android:exported="false"
+164-->[com.crashlytics.sdk.android:crashlytics:2.7.1] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\db20548a45e4962219654d0683d2bc7a\crashlytics-2.7.1\AndroidManifest.xml:15:13-37
+165            android:initOrder="100" />
+165-->[com.crashlytics.sdk.android:crashlytics:2.7.1] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\db20548a45e4962219654d0683d2bc7a\crashlytics-2.7.1\AndroidManifest.xml:16:13-36
+166        <!--
+167         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+168         with the application context. This config is merged in with the host app's manifest,
+169         but there can only be one provider with the same authority activated at any given
+170         point; so if the end user has two or more different apps that use Facebook SDK, only the
+171         first one will be able to use the provider. To work around this problem, we use the
+172         following placeholder in the authority to identify each host application as if it was
+173         a completely different provider.
+174        -->
+175        <provider
+175-->[com.facebook.android:facebook-core:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\7dc9f1cb2d16e18012b6cbd7406e880c\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
+176            android:name="com.facebook.internal.FacebookInitProvider"
+176-->[com.facebook.android:facebook-core:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\7dc9f1cb2d16e18012b6cbd7406e880c\jetified-facebook-core-4.42.0\AndroidManifest.xml:40:13-70
+177            android:authorities="com.nextinnovation.pt.barcodescanner.FacebookInitProvider"
+177-->[com.facebook.android:facebook-core:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\7dc9f1cb2d16e18012b6cbd7406e880c\jetified-facebook-core-4.42.0\AndroidManifest.xml:41:13-72
+178            android:exported="false" />
+178-->[com.facebook.android:facebook-core:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\7dc9f1cb2d16e18012b6cbd7406e880c\jetified-facebook-core-4.42.0\AndroidManifest.xml:42:13-37
+179
+180        <receiver
+180-->[com.facebook.android:facebook-core:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\7dc9f1cb2d16e18012b6cbd7406e880c\jetified-facebook-core-4.42.0\AndroidManifest.xml:44:9-50:20
+181            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+181-->[com.facebook.android:facebook-core:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\7dc9f1cb2d16e18012b6cbd7406e880c\jetified-facebook-core-4.42.0\AndroidManifest.xml:45:13-86
+182            android:exported="false" >
+182-->[com.facebook.android:facebook-core:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\7dc9f1cb2d16e18012b6cbd7406e880c\jetified-facebook-core-4.42.0\AndroidManifest.xml:46:13-37
+183            <intent-filter>
+183-->[com.facebook.android:facebook-core:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\7dc9f1cb2d16e18012b6cbd7406e880c\jetified-facebook-core-4.42.0\AndroidManifest.xml:47:13-49:29
+184                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+184-->[com.facebook.android:facebook-core:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\7dc9f1cb2d16e18012b6cbd7406e880c\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:17-95
+184-->[com.facebook.android:facebook-core:4.42.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\7dc9f1cb2d16e18012b6cbd7406e880c\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:25-92
+185            </intent-filter>
+186        </receiver>
+187
+188        <provider
+188-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5caee2cc30c292ba4f20051ab5527e03\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+189            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+189-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5caee2cc30c292ba4f20051ab5527e03\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+190            android:authorities="com.nextinnovation.pt.barcodescanner.lifecycle-process"
+190-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5caee2cc30c292ba4f20051ab5527e03\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+191            android:exported="false"
+191-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5caee2cc30c292ba4f20051ab5527e03\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+192            android:multiprocess="true" />
+192-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\HELLO\.gradle\caches\transforms-2\files-2.1\5caee2cc30c292ba4f20051ab5527e03\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+193    </application>
+194
+195</manifest>

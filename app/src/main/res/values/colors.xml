@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="orange">#FF9900</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+    <color name="black">#000</color>
+
+    <color name="card_right_blue">#1ABC9C</color>
+    <color name="card_right_purple">#9B59B6</color>
+
+
+
+
+
+    <color name="red">#FF0000</color>
+    <color name="material_red">#F44336</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#808080	</color>
+
+    <color name="overexposure_high">#FF0000</color>
+    <color name="overexposure_moderate">#FF6600</color>
+
+    <!-- Material colors -->
+    <color name="red_500">#e51c23</color>
+    <color name="red_700">#222020</color>
+
+    <color name="indigo_50">#e8eaf6</color>
+
+    <color name="blue_500">#5677fc</color>
+
+    <color name="light_blue_500">#6EC4EB</color>
+    <color name="light_blue_A700">#0091ea</color>
+
+    <color name="green_300">#42bd41</color>
+    <color name="green_500">#259B24</color>
+
+    <color name="yellow_500">#ffeb3b</color>
+
+    <color name="orange_400">#ffa726</color>
+    <color name="orange_800">#ef6c00</color>
+    <color name="orange_800_alpha">#88ef6c00</color>
+
+    <color name="brown_100">#d7ccc8</color>
+
+    <color name="grey_50">#fafafa</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey_400">#bdbdbd</color>
+    <color name="grey_500">#9e9e9e</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_800_alpha">#88424242</color>
+
+    <color name="blue_grey_100">#CFD8DC</color>
+
+    <!-- Intro Screens-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20D2BB</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="button_link">#1c72e9</color>
+    <color name="url_link">#1c72e9</color>
+    <color name="tag_link">#1c72e9</color>
+
+
+
+    <!--FeedBack Dialog sample color-->
+    <color name="sampleColor">#795548</color>
+
+
+
+    <color name="facebookBlue">#3F5996</color>
+    <color name="twitterBlue">#29C5F6</color>
+    <color name="googleRed">#D03E2F</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="editTextBG">#DADADA</color>
+
+
+    <color name="card_bg_color">#f6f6f6</color>
+    <color name="content_text_color">#999da4</color>
+    <color name="card_bg_dark_color">#0e0e0e</color>
+    <color name="title_text_color">#258BD6</color>
+    <color name="textColor">#060606</color>
+
+
+
+
+    <!-- Screens background color-->
+    <color name="bg_slider_screen1">#f4b241</color>
+    <color name="bg_slider_screen2">#16bc7d</color>
+    <color name="bg_slider_screen3">#203d8c</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#F4B449</color>
+    <color name="dot_inactive_screen2">#008C57</color>
+    <color name="dot_inactive_screen3">#143EAF</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#F1AA30</color>
+    <color name="dot_active_screen2">#74f7c5</color>
+    <color name="dot_active_screen3">#3A67E0</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+        <item>@color/dot_active_screen2</item>
+
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+        <item>@color/dot_dark_screen2</item>
+
+    </array>
+</resources>
